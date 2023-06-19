@@ -27,7 +27,7 @@ export class Filter extends BaseFilter<Param> {
       highlights.push({
         name: args.filterParams.name,
         hl_group: args.filterParams.hl_group,
-        col: 0,
+        col: 1,
         width: width,
       });
       item.highlights = highlights;
